@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "motionator"
+version = "0.1.0"
+name = "Motionator"
+tagline = "Fast FK motion paths with a native C++ core"
+maintainer = "Your Name <you@example.com>"
+type = "add-on"
+website = "https://github.com/"
+
+blender_version_min = "5.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Animation"]
+platforms = ["windows-x64"]
+wheels = [@WHEELS@]
